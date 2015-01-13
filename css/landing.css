@@ -1,0 +1,28 @@
+body {
+  height: 100%;
+}
+
+/*html, body {
+	height: 100%;
+}*/
+
+
+#container-intro {
+  outline-width: 10%;
+  height: 89%;
+  /*min-height: 100%;*/
+  text-align: center;
+  color: #E0E9EF;
+  background: url(../img/intro.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  z-index: -5;
+}
+
+.jumbotron {
+  background:transparent !important;
+}
+.navbar-static-top {
+  margin-bottom: 19px;
+}
